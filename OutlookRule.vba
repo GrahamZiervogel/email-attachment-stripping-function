@@ -1,9 +1,9 @@
-Public Sub saveAttachtoWombat(itm As Outlook.MailItem)
+Public Sub SaveAttachToDisk(itm As Outlook.MailItem)
 
     Dim objAtt As Outlook.Attachment
     Dim saveFolder As String
 
-    saveFolder = "C:\Users\Fairtree\Dropbox (Fairtree Newlands)\SharedRmbamHf\Data\WombatData"
+    saveFolder = "C:\StrippedData\"
     
     sUser = VBA.Environ("USERNAME")
     
